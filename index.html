@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="index.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Glory:wght@300&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Weather App</title>
+  </head>
+  <body>
+    <div class="app">
+      <header class="header">
+        <h1>Weather App</h1>
+        <form class="app__form">
+          <label for="sities">Search</label>
+          <input class="app__input" type="text" name="sities" />
+          <button class="app__btn">push me</button>
+        </form>
+        <div class="header__city">
+          <h2 class="header__city"></h2>
+          <h3 class="header__country"></h3>
+        </div>
+      </header>
+      <main class="main__info">
+        <section class="main-app">
+          <div class="main-app__info">
+            <img class="main-app__img" />
+            <h5 class="main-app__weather"></h5>
+          </div>
+        </section>
+        <img class="cat" src="img/bg/kot-glaza-usy.jpg" alt="cat" />
+        <section class="add-info">
+          <div class="days row">
+            <div class="day__value"></div>
+          </div>
+          <div class="time row">
+            <div class="time__value"></div>
+          </div>
+          <div class="temperature row">
+            <i class="fas fa-thermometer-three-quarters"></i>
+            <div class="temperature__value"></div>
+          </div>
+          <div class="wind row">
+            <i class="fas fa-wind"></i>
+            <div class="wind__value"></div>
+          </div>
+          <div class="humidity row">
+            <i class="fas fa-tint"></i>
+            <div class="humidity__value"></div>
+          </div>
+          <div class="presssure row">
+            <i class="fas fa-tachometer-alt"></i>
+            <div class="pressure__value"></div>
+          </div>
+        </section>
+      </main>
+      <footer class="footer">
+        <h4>Private production Elizabettth.</h4>
+      </footer>
+    </div>
+    <script src="https://kit.fontawesome.com/972d061ba9.js" crossorigin="anonymous"></script>
+  </body>
+</html>
