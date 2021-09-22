@@ -49,7 +49,7 @@ form.addEventListener("submit", async (e) => {
     img.style.display = "none";
   } else {
     city.innerHTML = input.value;
-    imgOfWeather.setAttribute("src", `http://openweathermap.org/img/w/${data.weather[0].icon}.png`);
+    imgOfWeather.setAttribute("src", `https://openweathermap.org/img/w/${data.weather[0].icon}.png`);
     humidity.innerHTML = data.main.humidity;
     pressure.innerHTML = data.main.pressure;
     temperature.innerHTML = data.main.temp;
